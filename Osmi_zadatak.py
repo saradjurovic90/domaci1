@@ -1,4 +1,4 @@
-# Brisanje knjiga sa najvisom i najmanjom cijenom
+# 8.Brisanje knjiga sa najvisom i najmanjom cijenom
 
 class BookNode:
     def __init__(self, sifra, naziv, sifra_autora, cijena):
@@ -74,11 +74,11 @@ class DoublyLinkedListBooks:
             current = next_node
 
 # Testiranje funkcije
-b1 = BookNode(1, "Knjiga 1", 101, 15.99)
-b2 = BookNode(2, "Knjiga 2", 102, 29.99)
-b3 = BookNode(3, "Knjiga 3", 103, 9.99)
-b4 = BookNode(4, "Knjiga 4", 104, 19.99)
-b5 = BookNode(5, "Knjiga 5", 105, 24.99)
+b1 = BookNode(1, "Braća Karamazovi", 101, 15.99)
+b2 = BookNode(2, "Ana Karenjina", 102, 35.99)
+b3 = BookNode(3, "Kuga", 103, 9.99)
+b4 = BookNode(4, "Morfijum", 104, 19.99)
+b5 = BookNode(5, "Minesota", 105, 24.99)
 
 book_list = DoublyLinkedListBooks()
 for book in [b1, b2, b3, b4, b5]:
